@@ -9,7 +9,7 @@ var debug = require('debug')('p-3-productapi:server');
 var http = require('http');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://shwetasuhagiya:shweta123@cluster0.k2vndlz.mongodb.net//dummy')
+mongoose.connect('mongodb+srv://shwetasuhagiya:shweta123@cluster0.k2vndlz.mongodb.net/dummy')
   .then(() => console.log('Connected!'));
 
 /**
